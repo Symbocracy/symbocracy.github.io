@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: rgb(224, 224, 224);
+  
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header , footer {
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 6vw;
+  font-family: 'Rye', cursive;;
+  margin: 10px
+}
+
+main {
+  font-family: 'New Tegomin', serif;
+  max-width: 100%;
+  white-space: pre-line;
+  
+}
+
+footer {
+  padding: 50px;
+  background-color: black;
+  margin: 0;
+}
+
+#darkModeBtn {
+  font-size: 60px;
+  margin: 0;
+  content: "heo";
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+/* RESPONSIVITY */
+/* FOR MOBILES */
+@media (max-width: 600px) {
+  body {
+    font-size:16px;
+  }
+  main {
+    margin: 0 15px;
+  }
+}
+/* FOR DESKTOP */
+@media (min-width: 600px) {
+  
+  body {
+    font-size:18px;
+  }
+
+  main {
+    max-width: 65%;
+    margin: auto;
+  }
+}
